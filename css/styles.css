@@ -14,5 +14,32 @@ h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
+h1{
+  width: 100%;
+  text-align: center;
+}
 
+img{
+   width: 8vw;
+   height: 11vw;
+   object-fit: cover;
+}
 
+#genero-28, #genero-53, #genero-12 {
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+}
+#genero-28 div, #genero-53 div, #genero-12 div {
+  width: 13.1vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+
+}
